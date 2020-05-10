@@ -233,7 +233,7 @@ body {
   border-radius: 10px;
   background-color: rgba(117, 204, 84, 1);
 }
-.dog-box {
+.man-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -242,7 +242,7 @@ body {
   width: 100%;
   background-color: rgba(27, 175, 234, 0.2);
 }
-.dog-bar {
+.man-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -250,7 +250,7 @@ body {
   border-radius: 10px;
   background-color: rgba(27, 175, 234, 1);
 }
-.cat-box {
+.woman-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -259,64 +259,13 @@ body {
   width: 100%;
   background-color: rgba(251, 176, 59, 0.2);
 }
-.cat-bar {
+.woman-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   background-color: rgba(251, 176, 59, 1);
-}
-.bear-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(195, 140, 102, 0.2);
-}
-.bear-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(195, 140, 102, 1);
-}
-.fox-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(49, 132, 155, 0.2);
-}
-.fox-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(49, 132, 155, 1);
-}
-.rabbit-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(235, 166, 190, 0.2);
-}
-.rabbit-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(235, 166, 190, 1);
 }
 .percent-text {
   font-size: 1rem;
@@ -471,5 +420,6 @@ input:checked + label > .knob > i:before {
 }
 
 .ad-banner {
-    max-width: 320px;
+    width: 320px;
+    margin: 0 auto;
 }

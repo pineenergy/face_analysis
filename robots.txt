@@ -1,4 +1,0 @@
-User-Agent:*
-Allow: /
-
-Sitemap: https://amikorean.netlify.app/sitemap.xml
